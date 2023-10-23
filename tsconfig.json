@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {    
+    "target": "ES2020",
+    "moduleDetection": "auto",  
+    "module": "ES6",                               
+    "rootDir": "./src",   
+    "allowJs": true,      
+    "sourceMap": true,  
+    "outDir": "./dist",  
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,    
+    "strict": true,                                      
+    "noImplicitAny": true,
+    "skipLibCheck": true  
+  },
+  "include": ["src/**/*.ts","src/*.ts"],
+  "exclude": ["node_modules"]
+}
